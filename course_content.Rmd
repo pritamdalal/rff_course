@@ -1,0 +1,110 @@
+---
+title: ""
+---
+
+<style>
+    body .main-container {
+        max-width: 800px;
+    }
+</style>
+
+&nbsp;
+
+## **Course Content**
+
+
+#### Prerequisites
+
+1. A laptop with R and R Studio installed on it.
+
+2. Privileges to install packages on your laptop.
+
+3. An internet connection.
+
+&nbsp;
+
+#### Basic Wrangling - Stocks (6 hrs)
+
+Tutorial 01: a brief introduction to financial data wrangling in `R`
+
+Tutorial 02: `R` programming basics
+
+Tutorial 03: `data frame` - the analysis work horse
+
+Tutorial 04: the `summarize()` function and calculating volume weighted average price (VWAP)
+
+Tutorial 05: subsetting data with indexing and slicing
+
+Tutorial 06: **tidyverse** and the pipe operator (`%>%`)
+
+Tutorial 07: filtering `data frames` with `dplyr`
+
+Tutorial 08: calculating daily returns with vectorized operations
+
+Tutorial 09: `group_by()` - unleashing the power of `summarize()` and `mutate`
+
+Tutorial 10: a closer look at the Rstudio IDE
+
+Tutorial 11: working with scripts and projects
+
+Capstone Project 1: *The Leverage Effect in Monthly ETF Returns and Volatility*
+
+<br>
+
+#### Intermediate Wrangling - Stocks (3 hrs)
+
+Tutorial 01: writing functions
+
+Tutorial 02: joining `data frames` with `inner_join()` and `left_join()`
+
+Tutorial 03: advanced iteration with the **purr** package
+
+Tutorial 04: the **tidyquant** package
+
+Capstone Project 2: *Comparing Investment Strategies via Data Computation*
+
+<br>
+
+#### Basic Data Visualization - Stocks (4 hrs)
+
+Tutorial 01: **ggplot** and the grammar of graphics
+
+Tutorial 02: line graphs with `geom_line()`
+
+Tutorial 03: bar charts with `geom_bar()`
+
+Tutorial 04: scatter plots with `geom_point()`
+
+Tutorial 05: small multiples with `facet_wrap()` and `facet_grid()`
+
+Capstone Project 3:  *Comparing Investment Strategies via Visualization*
+
+<br>
+
+#### Advanced Options Topics (6 hrs)
+
+Tutorial 01: an introduction to options analysis in `R`
+
+Tutorial 02: getting the know the Delta Neutral data set
+
+Tutorial 03: calculating business days with **bizdays**
+
+Tutorial 04: prices and greeks with **fOptions**
+
+Tutorial 05: implied volatities with **fOptions**
+
+Tutorial 06: regression and PCA
+
+Tutorial 06: GARCH modeling with **rugarch**
+
+Capstone Project 4: **A Correlation Analysis with the CBOE Volatility Indexes**
+
+
+<!-- #### Advanced Visualization - Options () -->
+
+
+<!-- #### Authoring in R -->
+
+<!-- Tutorial 01: Rmarkdown -->
+
+<!-- Tutorial 02: -->

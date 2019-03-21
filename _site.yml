@@ -1,0 +1,14 @@
+name: "wodr_website"
+output_dir: "."
+navbar:
+  title: "Wrangling Options Data in R"
+  left:
+    - text: "Course Content"
+      href: course_content.html
+    - text: "Instructor"
+      href: instructor.html
+output:
+  html_document:
+    theme: united
+    highlight: tango
+    css: style.css

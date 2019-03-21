@@ -1,0 +1,93 @@
+---
+title: ""
+---
+
+<style>
+    body .main-container {
+        max-width: 800px;
+    }
+</style>
+
+
+&nbsp;
+
+## **Financial Data Wrangling in R**
+
+We are in the midst of a data revolution.  Strong data wrangling and analysis skills are essential for analytical professionals in all industries.  No where is this more true than in the complex world of finance and insurance. 
+
+As data analysis problems grow bigger and more complex, Excel simply isn't going to cut it anymore.  That's where [R](https://www.r-project.org/) enters the picture.  R is an open source statistical computing framework that was built from the the ground up with data analysis in mind.  Some of you reading this are likely familiar with R, and are aware of its reputation as being a difficult nut to crack: strange syntax, unreadable code, that weird arrow thing.  
+
+I'll be the the first to admit that this reputation was largely deserved...at least until the tidyverse came along.
+
+The [tidyverse](https://www.tidyverse.org/) is an opinionated collection of packages focused on data wrangling, analysis, and visualization.  The tidyverse's strong dedication to usability and consistency make it an invaluable set of tools in the R ecosystem.  In fact, it makes data wrangling in R downright enjoyable. Well...that might be a bit of a stretch, but you get the point. 
+
+<!-- The [Minnesota Center for Financial and Actuarial Mathematics](https://math.umn.edu/research-programs/mcfam) is proud to offer this one day bootcamp that introduces the vast data wrangling capabilities of R and the tidyverse, all within the context of quantitative finance.  Let's get wrangling! -->
+
+```{r, loading_packages, include=FALSE}
+library(fOptions)
+library(bizdays)
+library(tidyverse)
+library(gridExtra)
+```
+
+
+
+```{r, services_art, echo=FALSE, fig.height=3.25, fig.width=8, fig.align="center"}
+# df_market_history <- 
+#     read_csv("practice_market_history.csv", col_types = cols())
+
+# df_liquidity <-
+#   df_market_history %>% 
+#     group_by(underlying) %>% 
+#     summarize(daily_volume = (sum(volume) / nrow(df_market_history %>% distinct(trade_date)))
+#               ,avg_spread = mean(ask - bid)) %>% 
+#     arrange(desc(daily_volume))
+#write_csv(df_liquidity, "art_liquidity_data.csv")
+df_liquidity <- read_csv("art_liquidity_data.csv", col_types = cols())
+
+
+# let's reproduce this graph using ggplot()
+p1 <- 
+  ggplot(data = df_liquidity) +
+  geom_point(mapping = aes(x = log(daily_volume), y = avg_spread, color="grey37"), size = 0.75, na.rm = TRUE) +
+  geom_smooth(mapping = aes(x = log(daily_volume), y = avg_spread), color="steelblue1", se = FALSE, method = "loess", na.rm = TRUE) +
+  scale_y_continuous(limits = c(0, 0.2)) +
+  theme(axis.title.x=element_blank()
+        , axis.text.x=element_blank()
+        , axis.ticks.x=element_blank()
+        , axis.title.y=element_blank()
+        , axis.text.y=element_blank()
+        , axis.ticks.y=element_blank()
+        , legend.position="none"
+  )
+
+
+# df_spy_time <-
+#   df_market_history %>% 
+#     filter(underlying == "SPY") %>%
+#     filter(expiration == as.Date("2013-09-21")) %>% 
+#     arrange(trade_date, strike)
+# write_csv(df_spy_time, "art_spy_time_data.csv")
+
+df_spy_time <- read_csv("art_spy_time_data.csv", col_types = cols())
+
+# log-strike, like a boss
+p2 <- 
+    ggplot(data = df_spy_time %>% filter(trade_date < as.Date("2013-09-01"))) +
+    geom_line(
+        mapping = aes(x = log(strike/implied_forward)
+        , y = implied_vol, group = trade_date, color = trade_date)
+        , size = 0.75
+        , alpha = 0.65
+    ) +
+  theme(axis.title.x=element_blank()
+        , axis.text.x=element_blank()
+        , axis.ticks.x=element_blank()
+        , axis.title.y=element_blank()
+        , axis.text.y=element_blank()
+        , axis.ticks.y=element_blank()
+        , legend.position="none"
+  )
+
+gridExtra::grid.arrange(suppressWarnings(p1), p2, nrow = 1)
+```

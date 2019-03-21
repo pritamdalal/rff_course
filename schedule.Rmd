@@ -1,0 +1,71 @@
+---
+title: ""
+---
+
+&nbsp;
+
+## **Course Content**
+
+
+#### Prerequisites
+
+A laptop with R and R Studio installed on it.
+
+&nbsp;
+
+#### Introduction (8:30a - 9:15a)
+We start by giving a brief tours of the RStudio IDE as well as some of the basic data structures in R. We'll end by installing and loading the `tidyverse`.
+
+Tutorials: 1, 2, 3
+
+Reading: R4DS 20.1-20.4 (Vectors); AdvR Chpt 3 (Vectors); Jenny Bryan Purr Tutorial.
+
+
+&nbsp;
+
+#### Data Manipulation (9:20a - 12:00p)
+The vast majority of time in data analysis is spent doing fundamental manipulations of the data: slicing, filtering, subsetting, grouping, joining.  Towards this end, we explore the foundational data manipulation functionality of the tidyverse.  We will also show how to write functions in R, which is a great way of keeping your code organized.
+
+
+Tutorials: 4, 5, 7, 10
+
+Packages: `dplyr`, `tidyr`, `readr`, `magrittr`, `purrr`
+
+Reading: R4DS Chpts 5 (Data Manipulation), 18 (Pipes), 19 (Functions); AdvR Chpt 4 (Subsetting); Jenny Bryan Purr Tutorial.
+
+&nbsp;
+
+
+#### Data Visualization (1:00p - 2:30p)
+Visualization is among the most powerful tools in the data analysts toolbox.  The `ggplot2` package in the tidyverse has a vast array of visualization capabilities.  We'll only scratch the surface, but we'll give a great jump start and of resources to use to explore this vast domain.
+
+Tutorials: 8
+
+Packages: `ggplot2`, `gridExtra`
+
+Reading: R4DS Chpts 3 (Data Visualization), 7 (Exploratory Data Analysis); Boehmke.
+
+&nbsp;
+
+
+#### Putting it Togther (2:45p-4:30p)
+In this section we are going to put our hard won skills together to complete some more complex tasks on the [Delta-Neutral](http://www.historicaloptiondata.com) data.
+
+Tutorials: 9, tbd
+
+Packages: all of the above
+
+Reading: R4DS Chpt 7 (Exploratory Data Analysis); Boehmke.
+
+&nbsp;
+
+#### Authoring in R (4:45p-5:45p)
+R has a wide array of authoring capabilities that greatly facilitate the communication of data analysis.  Now it's easier than ever to create beautiful documents and websites that incorporate text, code, data visualization, and mathematical notation.
+<!-- Let's see if this sounds familiar: you've done a complex analysis in Excel.  You need to write up a report, so you put together a Word document and convert all your graphs and tables to JPEGs, and import them in.  Your boss reads the first draft and wants a bunch of -->
+
+Tutorials: 6
+
+Packages: `rmarkdown`, `bookdown`, `blogdown`
+
+Reading: R4DS Chpts 27 (Rmarkdown), 29 (Rmarkdown Formats)
+
