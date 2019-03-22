@@ -1,0 +1,77 @@
+---
+title: ""
+---
+
+<style>
+    body .main-container {
+        max-width: 700px;
+    }
+</style>
+
+&nbsp;
+
+## **Reading**
+
+
+<br>
+
+#### **Wrangling**
+
+*R for Data Science*: Chapter 4 (Workflow Basics); Chapter 5 (Data Transformation); Chapter 6 (Work-Flow Scripts); Chapter 7 (Exploratory Data Analysis); Chapter 8 (Workflow - Projects); Chapter 12 (Tibbles); Chapter 18 (Pipes); Chapter 12 (Vectors); Chapter 20 (Vectors); Chapter 21 (Iteration) 
+
+*Learning Options from Data*: 3.2 (Stocks and Dividends); 3.3 (Exchange Traded Funds); 5.1 (Stock PNL); 5.4 (Returns)
+
+<!-- <span style="color:gray":>**Supplemental:**</span>  -->
+
+[Core Functions in tidyquant](https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ01-core-functions-in-tidyquant.html) - the first in a series of well written vignette on how to get started with the **tidyquant** package.  I recommend continuing with the vignettes if you'd like to learn more about this package.
+
+<br>
+
+#### **Advanced Wrangling**
+
+*R for Data Science*: Chapter 12 (Tidy Data); Chapter 13 (Relational Data); Chapter 19 (Functions); Chapter 21 (Iteration)
+
+[A Tutorial on Using Functions in R!](https://www.datacamp.com/community/tutorials/functions-in-r-a-tutorial#what) - a good introductory tutorial on functions.
+
+[Jenny Bryan Purr Tutorials](https://jennybc.github.io/purrr-tutorial/) - these are fairly in-depth, but the first two are good for becoming more familiar with `vectors` and `lists`.
+
+<br>
+
+#### **Visualization**
+
+*R for Data Science*: Chapter 3 (Data Visualization); Chapter 28 (R Graphics for Communication)
+
+
+<!-- <span style="color:gray":>**Supplemental:**</span>  -->
+
+[Visual Data Exploration](http://uc-r.github.io/gda) - an excellent online tutorial on **ggplot2**; however, it's quite long so expect it to take some time to work all the way through.
+
+
+[Advanced Plots with ggplot2](http://uc-r.github.io/ggplot) - a series of online articles that focus on individual plot types. 
+
+
+<br> 
+
+#### **Options Analysis**
+
+*Learning Options from Data*: Chapter 2 (Options 101); Chapter 5 (Profit & Loss); Chapter 6 (Option Pricing)
+
+<br> 
+
+#### **Authoring in R**
+
+*R for Data Science*: Chapter 27 (Rmarkdown); Chapter 29 (Rmarkdown Formats)
+
+*Rmarkdown Definitive Guide*: Chapter 2 (Basics); Chapter 3 (Documents)
+
+
+
+
+
+
+
+
+
+
+
+

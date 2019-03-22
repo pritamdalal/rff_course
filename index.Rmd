@@ -4,22 +4,42 @@ title: ""
 
 <style>
     body .main-container {
-        max-width: 800px;
+        max-width: 750px;
     }
 </style>
 
 
 &nbsp;
 
-## **Financial Data Wrangling in R**
+## **Financial Data Analysis in R**
 
-We are in the midst of a data revolution.  Strong data wrangling and analysis skills are essential for analytical professionals in all industries.  No where is this more true than in the complex world of finance and insurance. 
+We are in the midst of a data revolution.  Strong data wrangling and analysis skills are essential for analytical professionals in all industries.  No where is this more true than in the complex world of finance. 
 
-As data analysis problems grow bigger and more complex, Excel simply isn't going to cut it anymore.  That's where [R](https://www.r-project.org/) enters the picture.  R is an open source statistical computing framework that was built from the the ground up with data analysis in mind.  Some of you reading this are likely familiar with R, and are aware of its reputation as being a difficult nut to crack: strange syntax, unreadable code, that weird arrow thing.  
+<!-- **R** and the ecosystem of packages called **tidyverse** are becoming a de facto standard in the world of financial data analysis. -->
 
-I'll be the the first to admit that this reputation was largely deserved...at least until the tidyverse came along.
+This innovative course series has been designed from the ground up specifically for finance professionals.  The primary goal is to have you doing professional financial analysis as quickly as possible using **R** and the **tidyverse**.  
 
-The [tidyverse](https://www.tidyverse.org/) is an opinionated collection of packages focused on data wrangling, analysis, and visualization.  The tidyverse's strong dedication to usability and consistency make it an invaluable set of tools in the R ecosystem.  In fact, it makes data wrangling in R downright enjoyable. Well...that might be a bit of a stretch, but you get the point. 
+<!-- Not only will you leave this course with the skills to make an impact on your work immediately, but you will also be armed with resources to continue to develop your data analysis skill. -->
+
+<!-- Here is a brief overview of the courses, for more in-depth information see the Course Content page.  -->
+
+<br style="line-height: 0px" />
+
+**Basic Wrangling (6 hrs)** - get up and running with `R` and then master the core **tidyverse** data analysis functions such as `filter`, `mutate`, and `group_by`.
+
+**Advanced Wrangling (3 hrs)** - continue to grow your **tidyverse** tool box with knowledge of tidy/relational data, writing functions, and advanced iteration techniques using the **purrr** package.
+
+
+**Data Visualization (3 hrs)** - learn to use the **ggplot2** package to build visualizations that are ubiquitous in finance, such as line graphs, bar charts, and scatter plots.
+
+**Options Data Analysis (6 hrs)** - a course designed for options professionals wanting to integrate **R** into their analysis stack.  We cover the packages, patterns, and techniques used in options analysis.  This course features equity options data from our data partners at [Delta Neutral](http://www.deltaneutral.com/).
+
+<br>
+<!-- As data analysis problems grow bigger and more complex, Excel simply isn't going to cut it anymore.  That's where [R](https://www.r-project.org/) enters the picture.  R is an open source statistical computing framework that was built from the the ground up with data analysis in mind.  Some of you reading this are likely familiar with R, and are aware of its reputation as being a difficult nut to crack: strange syntax, unreadable code, that weird arrow thing.   -->
+
+<!-- I'll be the the first to admit that this reputation was largely deserved...at least until the tidyverse came along. -->
+
+<!-- The [tidyverse](https://www.tidyverse.org/) is an opinionated collection of packages focused on data wrangling, analysis, and visualization.  The tidyverse's strong dedication to usability and consistency make it an invaluable set of tools in the R ecosystem.  In fact, it makes data wrangling in R downright enjoyable. Well...that might be a bit of a stretch, but you get the point.  -->
 
 <!-- The [Minnesota Center for Financial and Actuarial Mathematics](https://math.umn.edu/research-programs/mcfam) is proud to offer this one day bootcamp that introduces the vast data wrangling capabilities of R and the tidyverse, all within the context of quantitative finance.  Let's get wrangling! -->
 

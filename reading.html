@@ -287,51 +287,47 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+    body .main-container {
+        max-width: 700px;
+    }
+</style>
 <p> </p>
-<div id="course-content" class="section level2">
-<h2><strong>Course Content</strong></h2>
-<div id="prerequisites" class="section level4">
-<h4>Prerequisites</h4>
-<p>A laptop with R and R Studio installed on it.</p>
-<p> </p>
+<div id="reading" class="section level2">
+<h2><strong>Reading</strong></h2>
+<p><br></p>
+<div id="wrangling" class="section level4">
+<h4><strong>Wrangling</strong></h4>
+<p><em>R for Data Science</em>: Chapter 4 (Workflow Basics); Chapter 5 (Data Transformation); Chapter 6 (Work-Flow Scripts); Chapter 7 (Exploratory Data Analysis); Chapter 8 (Workflow - Projects); Chapter 12 (Tibbles); Chapter 18 (Pipes); Chapter 12 (Vectors); Chapter 20 (Vectors); Chapter 21 (Iteration)</p>
+<p><em>Learning Options from Data</em>: 3.2 (Stocks and Dividends); 3.3 (Exchange Traded Funds); 5.1 (Stock PNL); 5.4 (Returns)</p>
+<!-- <span style="color:gray":>**Supplemental:**</span>  -->
+<p><a href="https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ01-core-functions-in-tidyquant.html">Core Functions in tidyquant</a> - the first in a series of well written vignette on how to get started with the <strong>tidyquant</strong> package. I recommend continuing with the vignettes if you’d like to learn more about this package.</p>
+<p><br></p>
 </div>
-<div id="introduction-830a---915a" class="section level4">
-<h4>Introduction (8:30a - 9:15a)</h4>
-<p>We start by giving a brief tours of the RStudio IDE as well as some of the basic data structures in R. We’ll end by installing and loading the <code>tidyverse</code>.</p>
-<p>Tutorials: 1, 2, 3</p>
-<p>Reading: R4DS 20.1-20.4 (Vectors); AdvR Chpt 3 (Vectors); Jenny Bryan Purr Tutorial.</p>
-<p> </p>
+<div id="advanced-wrangling" class="section level4">
+<h4><strong>Advanced Wrangling</strong></h4>
+<p><em>R for Data Science</em>: Chapter 12 (Tidy Data); Chapter 13 (Relational Data); Chapter 19 (Functions); Chapter 21 (Iteration)</p>
+<p><a href="https://www.datacamp.com/community/tutorials/functions-in-r-a-tutorial#what">A Tutorial on Using Functions in R!</a> - a good introductory tutorial on functions.</p>
+<p><a href="https://jennybc.github.io/purrr-tutorial/">Jenny Bryan Purr Tutorials</a> - these are fairly in-depth, but the first two are good for becoming more familiar with <code>vectors</code> and <code>lists</code>.</p>
+<p><br></p>
 </div>
-<div id="data-manipulation-920a---1200p" class="section level4">
-<h4>Data Manipulation (9:20a - 12:00p)</h4>
-<p>The vast majority of time in data analysis is spent doing fundamental manipulations of the data: slicing, filtering, subsetting, grouping, joining. Towards this end, we explore the foundational data manipulation functionality of the tidyverse. We will also show how to write functions in R, which is a great way of keeping your code organized.</p>
-<p>Tutorials: 4, 5, 7, 10</p>
-<p>Packages: <code>dplyr</code>, <code>tidyr</code>, <code>readr</code>, <code>magrittr</code>, <code>purrr</code></p>
-<p>Reading: R4DS Chpts 5 (Data Manipulation), 18 (Pipes), 19 (Functions); AdvR Chpt 4 (Subsetting); Jenny Bryan Purr Tutorial.</p>
-<p> </p>
+<div id="visualization" class="section level4">
+<h4><strong>Visualization</strong></h4>
+<p><em>R for Data Science</em>: Chapter 3 (Data Visualization); Chapter 28 (R Graphics for Communication)</p>
+<!-- <span style="color:gray":>**Supplemental:**</span>  -->
+<p><a href="http://uc-r.github.io/gda">Visual Data Exploration</a> - an excellent online tutorial on <strong>ggplot2</strong>; however, it’s quite long so expect it to take some time to work all the way through.</p>
+<p><a href="http://uc-r.github.io/ggplot">Advanced Plots with ggplot2</a> - a series of online articles that focus on individual plot types.</p>
+<p><br></p>
 </div>
-<div id="data-visualization-100p---230p" class="section level4">
-<h4>Data Visualization (1:00p - 2:30p)</h4>
-<p>Visualization is among the most powerful tools in the data analysts toolbox. The <code>ggplot2</code> package in the tidyverse has a vast array of visualization capabilities. We’ll only scratch the surface, but we’ll give a great jump start and of resources to use to explore this vast domain.</p>
-<p>Tutorials: 8</p>
-<p>Packages: <code>ggplot2</code>, <code>gridExtra</code></p>
-<p>Reading: R4DS Chpts 3 (Data Visualization), 7 (Exploratory Data Analysis); Boehmke.</p>
-<p> </p>
+<div id="options-analysis" class="section level4">
+<h4><strong>Options Analysis</strong></h4>
+<p><em>Learning Options from Data</em>: Chapter 2 (Options 101); Chapter 5 (Profit &amp; Loss); Chapter 6 (Option Pricing)</p>
+<p><br></p>
 </div>
-<div id="putting-it-togther-245p-430p" class="section level4">
-<h4>Putting it Togther (2:45p-4:30p)</h4>
-<p>In this section we are going to put our hard won skills together to complete some more complex tasks on the <a href="http://www.historicaloptiondata.com">Delta-Neutral</a> data.</p>
-<p>Tutorials: 9, tbd</p>
-<p>Packages: all of the above</p>
-<p>Reading: R4DS Chpt 7 (Exploratory Data Analysis); Boehmke.</p>
-<p> </p>
-</div>
-<div id="authoring-in-r-445p-545p" class="section level4">
-<h4>Authoring in R (4:45p-5:45p)</h4>
-<p>R has a wide array of authoring capabilities that greatly facilitate the communication of data analysis. Now it’s easier than ever to create beautiful documents and websites that incorporate text, code, data visualization, and mathematical notation. <!-- Let's see if this sounds familiar: you've done a complex analysis in Excel.  You need to write up a report, so you put together a Word document and convert all your graphs and tables to JPEGs, and import them in.  Your boss reads the first draft and wants a bunch of --></p>
-<p>Tutorials: 6</p>
-<p>Packages: <code>rmarkdown</code>, <code>bookdown</code>, <code>blogdown</code></p>
-<p>Reading: R4DS Chpts 27 (Rmarkdown), 29 (Rmarkdown Formats)</p>
+<div id="authoring-in-r" class="section level4">
+<h4><strong>Authoring in R</strong></h4>
+<p><em>R for Data Science</em>: Chapter 27 (Rmarkdown); Chapter 29 (Rmarkdown Formats)</p>
+<p><em>Rmarkdown Definitive Guide</em>: Chapter 2 (Basics); Chapter 3 (Documents)</p>
 </div>
 </div>
 

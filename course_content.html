@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -266,6 +266,9 @@ $(document).ready(function () {
   <a href="course_content.html">Course Content</a>
 </li>
 <li>
+  <a href="reading.html">Reading</a>
+</li>
+<li>
   <a href="instructor.html">Instructor</a>
 </li>
       </ul>
@@ -286,23 +289,22 @@ $(document).ready(function () {
 
 <style>
     body .main-container {
-        max-width: 700px;
+        max-width: 750px;
     }
 </style>
-<p> </p>
+<p><br></p>
 <div id="course-content" class="section level2">
 <h2><strong>Course Content</strong></h2>
 <div id="prerequisites" class="section level4">
-<h4>Prerequisites</h4>
-<ol style="list-style-type: decimal">
-<li><p>A laptop with R and R Studio installed on it.</p></li>
-<li><p>Privileges to install packages on your laptop.</p></li>
-<li><p>An internet connection.</p></li>
-</ol>
-<p> </p>
+<h4><strong>Prerequisites</strong></h4>
+<p>A laptop with R and R Studio installed on it.</p>
+<p>Privileges to install packages on your laptop.</p>
+<p>An internet connection.</p>
+<p><br></p>
 </div>
-<div id="basic-wrangling---stocks-6-hrs" class="section level4">
-<h4>Basic Wrangling - Stocks (6 hrs)</h4>
+<div id="basic-wrangling---equities-6-hrs" class="section level4">
+<h4><strong>Basic Wrangling - Equities (6 hrs)</strong></h4>
+<p>This course covers the fundamentals of data wrangling in <code>R</code> <strong>tidyverse</strong> ecosystem. All of the lessons are structured around real world equity data. The goal of this course is to get you up and running as quickly as possible doing actual finance related analysis. Towards this end we discuss a variety of <strong>tidyverse</strong> functions including: <code>mutate</code>, <code>summarize</code>, <code>filter</code>, and <code>group_by</code>. We also discuss how compose these functions efficiently with the pipe operator (<code>%&gt;%</code>).</p>
 <p>Tutorial 01: a brief introduction to financial data wrangling in <code>R</code></p>
 <p>Tutorial 02: <code>R</code> programming basics</p>
 <p>Tutorial 03: <code>data frame</code> - the analysis work horse</p>
@@ -317,17 +319,20 @@ $(document).ready(function () {
 <p>Capstone Project 1: <em>The Leverage Effect in Monthly ETF Returns and Volatility</em></p>
 <p><br></p>
 </div>
-<div id="intermediate-wrangling---stocks-3-hrs" class="section level4">
-<h4>Intermediate Wrangling - Stocks (3 hrs)</h4>
+<div id="advanced-wrangling---equities-3-hrs" class="section level4">
+<h4><strong>Advanced Wrangling - Equities (3 hrs)</strong></h4>
+<p>Financial data analysis can become complex quickly. And as the complexity of your tasks grow, you will need additional tools in your <strong>tidyverse</strong> toolbox. This course builds on the <em>Basic Wrangling</em> course, and provides these additional tools. All examples will involved real-world options data. We discuss how to write function and how functions can be used to keep your code more organized. We also discuss the concepts of the tidy/relational data, which underpin the <strong>tidyverse</strong> philosophy, and show how to join tables together with the <code>inner_join</code> and <code>left_join</code> functions. The course ends with an introduction to advanced iteration techniques using the <strong>purrr</strong> package.</p>
 <p>Tutorial 01: writing functions</p>
-<p>Tutorial 02: joining <code>data frames</code> with <code>inner_join()</code> and <code>left_join()</code></p>
-<p>Tutorial 03: advanced iteration with the <strong>purr</strong> package</p>
-<p>Tutorial 04: the <strong>tidyquant</strong> package</p>
+<p>Tutorial 02: understanding relational (tidy) data</p>
+<p>Tutorial 03: joining <code>data frames</code> with <code>inner_join()</code> and <code>left_join()</code></p>
+<p>Tutorial 04: advanced iteration with the <strong>purrr</strong> package</p>
+<p>Tutorial 05: a deeper look at the <strong>tidyquant</strong> package</p>
 <p>Capstone Project 2: <em>Comparing Investment Strategies via Data Computation</em></p>
 <p><br></p>
 </div>
-<div id="basic-data-visualization---stocks-4-hrs" class="section level4">
-<h4>Basic Data Visualization - Stocks (4 hrs)</h4>
+<div id="data-visualization---equities-4-hrs" class="section level4">
+<h4><strong>Data Visualization - Equities (4 hrs)</strong></h4>
+<p>Visualization is an essential tool in financial data analysis. It is an invaluable for exploring data to arrive at conclusions, and is an unparalleled means of communicating your conclusions to other, be they a team of experts, or a group of non-expert decision makers. In the course, we introduce the <strong>ggplot2</strong> package and demonstrate a variety of plot types that are ubiquitous in finance. We’ll show how to make quick plots for your own analysis, and then how to polish those plots for persenting to others.</p>
 <p>Tutorial 01: <strong>ggplot</strong> and the grammar of graphics</p>
 <p>Tutorial 02: line graphs with <code>geom_line()</code></p>
 <p>Tutorial 03: bar charts with <code>geom_bar()</code></p>
@@ -336,16 +341,18 @@ $(document).ready(function () {
 <p>Capstone Project 3: <em>Comparing Investment Strategies via Visualization</em></p>
 <p><br></p>
 </div>
-<div id="advanced-options-topics-6-hrs" class="section level4">
-<h4>Advanced Options Topics (6 hrs)</h4>
+<div id="options-data-analysis-6-hrs" class="section level4">
+<h4><strong>Options Data Analysis (6 hrs)</strong></h4>
+<p>This course is designed specifically for option professionals who want to apply <code>R</code> to their business. This course will cover the essential packages, patterns, and techniques for analyzing options data. All course work and examples will involve real-world equity option data from our data partners at <a href="http://www.deltaneutral.com/">Delta Neutral</a>. After an in-depth look at the options data structer, we will introduce the <strong>bizdays</strong> and <strong>fOptions</strong> packages, which are essential for calculating prices and greeks on vanilla options. Then we will discuss typical coding patterns for calculating and grouping option PNLs. The course concludes with a coverage of machine learning technique that are relevant to modeling volatility, including regression, PCA, and GARCH.</p>
 <p>Tutorial 01: an introduction to options analysis in <code>R</code></p>
 <p>Tutorial 02: getting the know the Delta Neutral data set</p>
 <p>Tutorial 03: calculating business days with <strong>bizdays</strong></p>
 <p>Tutorial 04: prices and greeks with <strong>fOptions</strong></p>
 <p>Tutorial 05: implied volatities with <strong>fOptions</strong></p>
-<p>Tutorial 06: regression and PCA</p>
-<p>Tutorial 06: GARCH modeling with <strong>rugarch</strong></p>
-<p>Capstone Project 4: <strong>A Correlation Analysis with the CBOE Volatility Indexes</strong></p>
+<p>Tutorial 07: calculating and grouping option trade pnls</p>
+<p>Tutorial 08: regression and PCA</p>
+<p>Tutorial 09: GARCH modeling with <strong>rugarch</strong></p>
+<p>Capstone Project 4: <em>A Correlation Analysis with the CBOE Volatility Indexes</em></p>
 <!-- #### Advanced Visualization - Options () -->
 <!-- #### Authoring in R -->
 <!-- Tutorial 01: Rmarkdown -->

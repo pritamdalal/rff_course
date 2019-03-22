@@ -5,10 +5,12 @@ navbar:
   left:
     - text: "Course Content"
       href: course_content.html
+    - text: "Reading"
+      href: reading.html
     - text: "Instructor"
       href: instructor.html
 output:
   html_document:
-    theme: united
+    theme: cosmo
     highlight: tango
     css: style.css

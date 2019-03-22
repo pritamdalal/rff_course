@@ -4,26 +4,28 @@ title: ""
 
 <style>
     body .main-container {
-        max-width: 800px;
+        max-width: 750px;
     }
 </style>
 
-&nbsp;
+<br>
 
 ## **Course Content**
 
 
-#### Prerequisites
+#### **Prerequisites**
 
-1. A laptop with R and R Studio installed on it.
+A laptop with R and R Studio installed on it.
 
-2. Privileges to install packages on your laptop.
+Privileges to install packages on your laptop.
 
-3. An internet connection.
+An internet connection.
 
-&nbsp;
+<br>
 
-#### Basic Wrangling - Stocks (6 hrs)
+#### **Basic Wrangling - Equities (6 hrs)**
+
+This course covers the fundamentals of data wrangling in `R` **tidyverse** ecosystem.  All of the lessons are structured around real world equity data.  The goal of this course is to get you up and running as quickly as possible doing actual finance related analysis.  Towards this end we discuss a variety of **tidyverse** functions including: `mutate`, `summarize`, `filter`, and `group_by`.  We also discuss how compose these functions efficiently with the pipe operator (`%>%`).  
 
 Tutorial 01: a brief introduction to financial data wrangling in `R`
 
@@ -51,21 +53,25 @@ Capstone Project 1: *The Leverage Effect in Monthly ETF Returns and Volatility*
 
 <br>
 
-#### Intermediate Wrangling - Stocks (3 hrs)
+#### **Advanced Wrangling - Equities (3 hrs)**
+Financial data analysis can become complex quickly.  And as the complexity of your tasks grow, you will need additional tools in your **tidyverse** toolbox.  This course builds on the *Basic Wrangling* course, and provides these additional tools.  All examples will involved real-world options data.  We discuss how to write function and how functions can be used to keep your code more organized.  We also discuss the concepts of the tidy/relational data, which underpin the **tidyverse** philosophy, and show how to join tables together with the `inner_join` and `left_join` functions.  The course ends with an introduction to advanced iteration techniques using the **purrr** package.
 
 Tutorial 01: writing functions
 
-Tutorial 02: joining `data frames` with `inner_join()` and `left_join()`
+Tutorial 02: understanding relational (tidy) data
 
-Tutorial 03: advanced iteration with the **purr** package
+Tutorial 03: joining `data frames` with `inner_join()` and `left_join()`
 
-Tutorial 04: the **tidyquant** package
+Tutorial 04: advanced iteration with the **purrr** package
+
+Tutorial 05: a deeper look at the **tidyquant** package
 
 Capstone Project 2: *Comparing Investment Strategies via Data Computation*
 
 <br>
 
-#### Basic Data Visualization - Stocks (4 hrs)
+#### **Data Visualization - Equities (4 hrs)**
+Visualization is an essential tool in financial data analysis. It is an invaluable for exploring data to arrive at conclusions, and is an unparalleled means of communicating your conclusions to other, be they a team of experts, or a group of non-expert decision makers.  In the course, we introduce the **ggplot2** package and demonstrate a variety of plot types that are ubiquitous in finance.  We'll show how to make quick plots for your own analysis, and then how to polish those plots for persenting to others.
 
 Tutorial 01: **ggplot** and the grammar of graphics
 
@@ -81,7 +87,8 @@ Capstone Project 3:  *Comparing Investment Strategies via Visualization*
 
 <br>
 
-#### Advanced Options Topics (6 hrs)
+#### **Options Data Analysis (6 hrs)**
+This course is designed specifically for option professionals who want to apply `R` to their business.  This course will cover the essential packages, patterns, and techniques for analyzing options data.  All course work and examples will involve real-world equity option data from our data partners at [Delta Neutral](http://www.deltaneutral.com/).  After an in-depth look at the options data structer, we will introduce the **bizdays** and **fOptions** packages, which are essential for calculating prices and greeks on vanilla options.  Then we will discuss typical coding patterns for calculating and grouping option PNLs.  The course concludes with a coverage of machine learning technique that are relevant to modeling volatility, including regression, PCA, and GARCH.
 
 Tutorial 01: an introduction to options analysis in `R`
 
@@ -93,11 +100,13 @@ Tutorial 04: prices and greeks with **fOptions**
 
 Tutorial 05: implied volatities with **fOptions**
 
-Tutorial 06: regression and PCA
+Tutorial 07: calculating and grouping option trade pnls
 
-Tutorial 06: GARCH modeling with **rugarch**
+Tutorial 08: regression and PCA
 
-Capstone Project 4: **A Correlation Analysis with the CBOE Volatility Indexes**
+Tutorial 09: GARCH modeling with **rugarch**
+
+Capstone Project 4: *A Correlation Analysis with the CBOE Volatility Indexes*
 
 
 <!-- #### Advanced Visualization - Options () -->
