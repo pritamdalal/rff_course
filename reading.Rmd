@@ -22,6 +22,7 @@ title: ""
 *Learning Options from Data*: 3.2 (Stocks and Dividends); 3.3 (Exchange Traded Funds); 5.1 (Stock PNL); 5.4 (Returns)
 
 <!-- <span style="color:gray":>**Supplemental:**</span>  -->
+[Using R Studio Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) - a tutorial on how and why to use R Studio projects
 
 [Core Functions in tidyquant](https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ01-core-functions-in-tidyquant.html) - the first in a series of well written vignette on how to get started with the **tidyquant** package.  I recommend continuing with the vignettes if you'd like to learn more about this package.
 
