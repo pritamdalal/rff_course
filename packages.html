@@ -292,18 +292,34 @@ $(document).ready(function () {
 
 <style>
     body .main-container {
-        max-width: 800px;
+        max-width: 750px;
     }
 </style>
 <p> </p>
-<div id="instructor" class="section level2">
-<h2><strong>Instructor</strong></h2>
-<p><a><img src="John_Conklin_6_crop.jpg" width="250" alt="Cover image" align="right" style="margin: 0 1em 0 1em" /></a></p>
-<!--  height="375" -->
-<p>The instructor for this course is Pritam Dalal. Over the course of working in finance for over 10 years, Pritam has held a variety of trading and analysis roles at firms such as Cargill, Wolverine Trading, Allianz Investment Management, and Two Harbors Investment Corp. A common thread running through all of his work has been data-driven analysis, coupled with the ability to communicate those findings to fellow decision makers. These skills have been applied to areas ranging from volatility trading in commodity markets, to equity option market-making, and hedging complex annuities.</p>
-<p>Pritam is an instructor in University of Minnesota Master of Financial Mathematics where he <a href="https://pritamdalal.github.io/fm5990_site/">teaches</a> graduate students about the rich intersection between data science and quantitative finance.</p>
-<p>He holds a Bachelors in Mathematics and Economics from U.C. Berkeley, and a Masters in Financial Mathematics from the University of Minnesota, Twin Cities.</p>
-<p>Please consider Pritam a resource before, during, and after the course: <a href="mailto:dalal030@umn.edu">dalal030@umn.edu</a>.</p>
+<div id="packages" class="section level2">
+<h2><strong>Packages</strong></h2>
+<div id="base" class="section level4">
+<h4><strong>base</strong></h4>
+<p><a href="https://www.rdocumentation.org/packages/utils/versions/3.5.3/topics/head"><code>head()</code></a> - returns the top part of a <code>data frame</code>; is useful when you want to not print the entire <code>data frame</code>.</p>
+</div>
+<div id="dplyr" class="section level4">
+<h4><strong>dplyr</strong></h4>
+<p><a href="https://dplyr.tidyverse.org/reference/mutate.html"><code>mutate()</code></a> - adds a column to a <code>data frame</code>; the new column is typically a function of one or more existing columns.</p>
+<p><a href="https://dplyr.tidyverse.org/reference/select.html"><code>select()</code></a> - select one or more rows of a <code>data frame</code>.</p>
+<p><a href="https://dplyr.tidyverse.org/reference/summarise.html"><code>summarize()</code></a> - perform a summarizing calculation that takes in one or more columns of a <code>data frame</code> and returns a single value; often used in conjunction with <code>group_by()</code>.</p>
+</div>
+<div id="ggplot2" class="section level4">
+<h4><strong>ggplot2</strong></h4>
+<p><a href="https://ggplot2.tidyverse.org/reference/ggplot.html"><code>ggplot()</code></a> - generates a new plot; run this at the beginning of every code block that creates a graph.</p>
+<p><a href="https://ggplot2.tidyverse.org/reference/geom_path.html"><code>geom_line()</code></a> - used in conjunction with <code>ggplot()</code> to generate a line graph.</p>
+</div>
+<div id="lubridate" class="section level4">
+<h4><strong>lubridate</strong></h4>
+</div>
+<div id="tidyquant" class="section level4">
+<h4><strong>tidyquant</strong></h4>
+<p><a href="https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ01-core-functions-in-tidyquant.html"><code>tq_get()</code></a> - download data from a variety of online sources; in this class we use it to grab data from Yahoo Finance.</p>
+</div>
 </div>
 
 

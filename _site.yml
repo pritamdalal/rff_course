@@ -7,6 +7,8 @@ navbar:
       href: course_content.html
     - text: "Reading"
       href: reading.html
+    - text: "Packages"
+      href: packages.html
     - text: "Instructor"
       href: instructor.html
 output:
