@@ -12,16 +12,22 @@ title: ""
 &nbsp;
 
 ## **Packages**
-
+The is a glossary of all the package we cover in the course, and all the functions that appear in the tutorials and exercise.
 
 ####**base**
-[`head()`](https://www.rdocumentation.org/packages/utils/versions/3.5.3/topics/head) - returns the top part of a `data frame`; is useful when you want to not print the entire `data frame`.
+[`head()`](https://www.rdocumentation.org/packages/utils/versions/3.5.3/topics/head) - returns the top part of a data structure; we use it to print the entire part of a `data frame`.
 
 #### **dplyr**
 
+[`arrange()`](https://dplyr.tidyverse.org/reference/arrange.html) - sort the rows of a `data frame` according to the ordering of one or more columns.
+
+[`filter`](https://dplyr.tidyverse.org/reference/filter.html) - grab all rows from a `data frame` based on certain criteria, usually involving columns from that dataframe.
+
+['lag()`](https://dplyr.tidyverse.org/reference/lead-lag.html) - takes in a `vector`, shifts the elements downward, and then returns the shifted vector; useful for vectorized calculations such as daily returns.
+
 [`mutate()`](https://dplyr.tidyverse.org/reference/mutate.html) - adds a column to a `data frame`; the new column is typically a function of one or more existing columns.
 
-[`select()`](https://dplyr.tidyverse.org/reference/select.html) - select one or more rows of a `data frame`.
+[`select()`](https://dplyr.tidyverse.org/reference/select.html) - select one or more columns of a `data frame`.
 
 [`summarize()`](https://dplyr.tidyverse.org/reference/summarise.html) - perform a summarizing calculation that takes in one or more columns of a `data frame` and returns a single value; often used in conjunction with `group_by()`.
 
@@ -34,9 +40,19 @@ title: ""
 #### **lubridate**
 
 
+#### **magrittr**
+
+[`%>%`](https://magrittr.tidyverse.org/) - the `pipe` operator allows for convenient, left-to-right, function composition.
+
+#### **tibble**
+
+[`tibble()`](https://tibble.tidyverse.org/reference/tibble.html) - use this to manually create a `data frame`. 
+
 #### **tidyquant**
 
 [`tq_get()`](https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ01-core-functions-in-tidyquant.html) - download data from a variety of online sources; in this class we use it to grab data from Yahoo Finance.
 
+#### **utils**
 
+[`View()`](https://www.rdocumentation.org/packages/utils/versions/3.5.3/topics/View) - look and object in the *viewer*; for `data frames` this gives you spreadsheet like look at the data.  You can also envoke the viewer by putting your cursor on a variable and pressing F2.
 
