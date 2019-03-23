@@ -17,6 +17,8 @@ The is a glossary of all the package we cover in the course, and all the functio
 ####**base**
 [`head()`](https://www.rdocumentation.org/packages/utils/versions/3.5.3/topics/head) - returns the top part of a data structure; we use it to print the entire part of a `data frame`.
 
+<br> 
+
 #### **dplyr**
 
 [`arrange()`](https://dplyr.tidyverse.org/reference/arrange.html) - sort the rows of a `data frame` according to the ordering of one or more columns.
@@ -31,26 +33,45 @@ The is a glossary of all the package we cover in the course, and all the functio
 
 [`summarize()`](https://dplyr.tidyverse.org/reference/summarise.html) - perform a summarizing calculation that takes in one or more columns of a `data frame` and returns a single value; often used in conjunction with `group_by()`.
 
+
+<br>
+
 #### **ggplot2**
 
 [`ggplot()`](https://ggplot2.tidyverse.org/reference/ggplot.html) - generates a new plot; run this at the beginning of every code block that creates a graph.
 
 [`geom_line()`](https://ggplot2.tidyverse.org/reference/geom_path.html) - used in conjunction with `ggplot()` to generate a line graph.
 
+
+<br>
+
 #### **lubridate**
 
 
+
+<br>
 #### **magrittr**
 
 [`%>%`](https://magrittr.tidyverse.org/) - the `pipe` operator allows for convenient, left-to-right, function composition.
 
+
+<br>
+####**readr**
+[`read_csv()`](https://readr.tidyverse.org/reference/read_delim.html) - read the contents of a CSV into a `data frame`.
+
+[`write_csv()`](https://readr.tidyverse.org/reference/write_delim.html) - write the contents of a `data frame` to a CSV file.
+
+<br>
 #### **tibble**
 
 [`tibble()`](https://tibble.tidyverse.org/reference/tibble.html) - use this to manually create a `data frame`. 
 
+<br>
 #### **tidyquant**
 
 [`tq_get()`](https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ01-core-functions-in-tidyquant.html) - download data from a variety of online sources; in this class we use it to grab data from Yahoo Finance.
+
+<br>
 
 #### **utils**
 

@@ -258,7 +258,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Wrangling Options Data in R</a>
+      <a class="navbar-brand" href="index.html">R for Finance</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -302,30 +302,39 @@ $(document).ready(function () {
 <div id="base" class="section level4">
 <h4><strong>base</strong></h4>
 <p><a href="https://www.rdocumentation.org/packages/utils/versions/3.5.3/topics/head"><code>head()</code></a> - returns the top part of a data structure; we use it to print the entire part of a <code>data frame</code>.</p>
+<p><br></p>
 </div>
 <div id="dplyr" class="section level4">
 <h4><strong>dplyr</strong></h4>
 <p><a href="https://dplyr.tidyverse.org/reference/arrange.html"><code>arrange()</code></a> - sort the rows of a <code>data frame</code> according to the ordering of one or more columns.</p>
 <p><a href="https://dplyr.tidyverse.org/reference/filter.html"><code>filter</code></a> - grab all rows from a <code>data frame</code> based on certain criteria, usually involving columns from that dataframe.</p>
+<p>[’lag()<code>](https://dplyr.tidyverse.org/reference/lead-lag.html) - takes in a</code>vector`, shifts the elements downward, and then returns the shifted vector; useful for vectorized calculations such as daily returns.</p>
 <p><a href="https://dplyr.tidyverse.org/reference/mutate.html"><code>mutate()</code></a> - adds a column to a <code>data frame</code>; the new column is typically a function of one or more existing columns.</p>
 <p><a href="https://dplyr.tidyverse.org/reference/select.html"><code>select()</code></a> - select one or more columns of a <code>data frame</code>.</p>
 <p><a href="https://dplyr.tidyverse.org/reference/summarise.html"><code>summarize()</code></a> - perform a summarizing calculation that takes in one or more columns of a <code>data frame</code> and returns a single value; often used in conjunction with <code>group_by()</code>.</p>
+<p><br></p>
 </div>
 <div id="ggplot2" class="section level4">
 <h4><strong>ggplot2</strong></h4>
 <p><a href="https://ggplot2.tidyverse.org/reference/ggplot.html"><code>ggplot()</code></a> - generates a new plot; run this at the beginning of every code block that creates a graph.</p>
 <p><a href="https://ggplot2.tidyverse.org/reference/geom_path.html"><code>geom_line()</code></a> - used in conjunction with <code>ggplot()</code> to generate a line graph.</p>
+<p><br></p>
 </div>
 <div id="lubridate" class="section level4">
 <h4><strong>lubridate</strong></h4>
-</div>
-<div id="magrittr" class="section level4">
-<h4><strong>magrittr</strong></h4>
+<p><br> #### <strong>magrittr</strong></p>
 <p><a href="https://magrittr.tidyverse.org/"><code>%&gt;%</code></a> - the <code>pipe</code> operator allows for convenient, left-to-right, function composition.</p>
-</div>
-<div id="tidyquant" class="section level4">
-<h4><strong>tidyquant</strong></h4>
+<p><br> ####<strong>readr</strong> <a href="https://readr.tidyverse.org/reference/read_delim.html"><code>read_csv()</code></a> - read the contents of a CSV into a <code>data frame</code>.</p>
+<p><a href="https://readr.tidyverse.org/reference/write_delim.html"><code>write_csv()</code></a> - write the contents of a <code>data frame</code> to a CSV file.</p>
+<p><br> #### <strong>tibble</strong></p>
+<p><a href="https://tibble.tidyverse.org/reference/tibble.html"><code>tibble()</code></a> - use this to manually create a <code>data frame</code>.</p>
+<p><br> #### <strong>tidyquant</strong></p>
 <p><a href="https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ01-core-functions-in-tidyquant.html"><code>tq_get()</code></a> - download data from a variety of online sources; in this class we use it to grab data from Yahoo Finance.</p>
+<p><br></p>
+</div>
+<div id="utils" class="section level4">
+<h4><strong>utils</strong></h4>
+<p><a href="https://www.rdocumentation.org/packages/utils/versions/3.5.3/topics/View"><code>View()</code></a> - look and object in the <em>viewer</em>; for <code>data frames</code> this gives you spreadsheet like look at the data. You can also envoke the viewer by putting your cursor on a variable and pressing F2.</p>
 </div>
 </div>
 
