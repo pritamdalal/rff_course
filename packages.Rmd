@@ -50,23 +50,27 @@ The is a glossary of all the package we cover in the course, and all the functio
 
 
 <br>
+
 #### **magrittr**
 
 [`%>%`](https://magrittr.tidyverse.org/) - the `pipe` operator allows for convenient, left-to-right, function composition.
 
 
 <br>
+
 ####**readr**
 [`read_csv()`](https://readr.tidyverse.org/reference/read_delim.html) - read the contents of a CSV into a `data frame`.
 
 [`write_csv()`](https://readr.tidyverse.org/reference/write_delim.html) - write the contents of a `data frame` to a CSV file.
 
 <br>
+
 #### **tibble**
 
 [`tibble()`](https://tibble.tidyverse.org/reference/tibble.html) - use this to manually create a `data frame`. 
 
 <br>
+
 #### **tidyquant**
 
 [`tq_get()`](https://cran.r-project.org/web/packages/tidyquant/vignettes/TQ01-core-functions-in-tidyquant.html) - download data from a variety of online sources; in this class we use it to grab data from Yahoo Finance.
