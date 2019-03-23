@@ -1,7 +1,7 @@
-name: "wodr_website"
+name: "rff_site"
 output_dir: "."
 navbar:
-  title: "Wrangling Options Data in R"
+  title: "R for Finance"
   left:
     - text: "Course Content"
       href: course_content.html

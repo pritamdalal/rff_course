@@ -11,7 +11,7 @@ title: ""
 
 &nbsp;
 
-## **Financial Data Analysis in R**
+## **R for Finance**
 
 We are in the midst of a data revolution.  Strong data wrangling and analysis skills are essential for analytical professionals in all industries.  No where is this more true than in the complex world of finance. 
 
