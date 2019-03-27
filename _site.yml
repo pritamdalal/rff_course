@@ -7,6 +7,12 @@ navbar:
       href: course_content.html
     - text: "Reading"
       href: reading.html
+    - text: "Texts"
+      menu:
+        - text: "R for Data Science"
+          href: https://r4ds.had.co.nz/
+        - text: "R for Finance"
+          href: https://pritamdalal.github.io/rff_book/
     - text: "Packages"
       href: packages.html
     - text: "Instructor"
