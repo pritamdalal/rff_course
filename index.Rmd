@@ -11,9 +11,9 @@ title: ""
 
 &nbsp;
 
-## **R for Finance**
+## **R for Finance - Courses for Professionals**
 
-We are in the midst of a data revolution.  Strong data wrangling and analysis skills are essential for analytical professionals in all industries.  No where is this more true than in the complex world of finance. 
+We are in the midst of a data revolution.  Mastery of data is essenetial in the dynamic world of finance. 
 
 <!-- **R** and the ecosystem of packages called **tidyverse** are becoming a de facto standard in the world of financial data analysis. -->
 
