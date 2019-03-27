@@ -25,7 +25,7 @@ The is a glossary of all the package we cover in the course, and all the functio
 
 [`filter`](https://dplyr.tidyverse.org/reference/filter.html) - grab all rows from a `data frame` based on certain criteria, usually involving columns from that dataframe.
 
-['lag()`](https://dplyr.tidyverse.org/reference/lead-lag.html) - takes in a `vector`, shifts the elements downward, and then returns the shifted vector; useful for vectorized calculations such as daily returns.
+[`lag()`](https://dplyr.tidyverse.org/reference/lead-lag.html) - takes in a `vector`, shifts the elements downward, and then returns the shifted vector; useful for vectorized calculations such as daily returns.
 
 [`mutate()`](https://dplyr.tidyverse.org/reference/mutate.html) - adds a column to a `data frame`; the new column is typically a function of one or more existing columns.
 
