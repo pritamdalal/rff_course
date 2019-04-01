@@ -27,6 +27,8 @@ An internet connection.
 
 This course covers the fundamentals of data wrangling in `R` **tidyverse** ecosystem.  All of the lessons are structured around real world equity data.  The goal of this course is to get you up and running as quickly as possible doing actual finance related analysis.  Towards this end we discuss a variety of **tidyverse** functions including: `mutate`, `summarize`, `filter`, and `group_by`.  We also discuss how compose these functions efficiently with the pipe operator (`%>%`).  
 
+[Download Course Material](rff_bw_course_materials.zip)
+
 Tutorial 01: a brief introduction to financial data wrangling in `R`
 
 Tutorial 02: `R` programming basics
