@@ -2,6 +2,7 @@
 title: ""
 ---
 
+
 <style>
     body .main-container {
         max-width: 750px;
@@ -9,6 +10,11 @@ title: ""
 </style>
 
 <br>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ## **Course Content**
 
@@ -25,13 +31,13 @@ An internet connection.
 
 #### **Basic Wrangling - Equities (6 hrs)**
 
-This course covers the fundamentals of data wrangling in `R` **tidyverse** ecosystem.  All of the lessons are structured around real world equity data.  The goal of this course is to get you up and running as quickly as possible doing actual finance related analysis.  Towards this end we discuss a variety of **tidyverse** functions including: `mutate`, `summarize`, `filter`, and `group_by`.  We also discuss how compose these functions efficiently with the pipe operator (`%>%`).  
+This course covers the fundamentals of data wrangling in **R's** **tidyverse** ecosystem.  All of the lessons are structured around real world equity data.  The goal of this course is to get you up and running as quickly as possible doing actual finance related analysis.  Towards this end we discuss a variety of **tidyverse** functions including: `mutate`, `summarize`, `filter`, and `group_by`.  We also discuss how compose these functions efficiently with the pipe operator (`%>%`).  
 
-[Download Course Material](rff_bw_course_materials.zip)
+[Download Course Material](bw_material_20190503.zip)
 
-Tutorial 01: a brief introduction to financial data wrangling in `R`
+Tutorial 01: a brief introduction to financial data wrangling in **R**
 
-Tutorial 02: `R` programming basics
+Tutorial 02: **R** programming basics
 
 Tutorial 03: `data frame` - the analysis work horse
 
@@ -45,7 +51,7 @@ Tutorial 07: filtering `data frames` with `dplyr`
 
 Tutorial 08: calculating daily returns with vectorized operations
 
-Tutorial 09: `group_by()` - unleashing the power of `summarize()` and `mutate`
+Tutorial 09: `group_by()` - unleashing the power of `summarize()` and `mutate()`
 
 Tutorial 10: a closer look at the Rstudio IDE
 

@@ -15,11 +15,11 @@ title: ""
 
 <br>
 
-#### **Wrangling**
+#### **Basic Wrangling**
 
 *R for Data Science*: Chapter 4 (Workflow Basics); Chapter 5 (Data Transformation); Chapter 6 (Work-Flow Scripts); Chapter 7 (Exploratory Data Analysis); Chapter 8 (Workflow - Projects); Chapter 12 (Tibbles); Chapter 18 (Pipes); Chapter 12 (Vectors); Chapter 20 (Vectors); Chapter 21 (Iteration) 
 
-*Learning Options from Data*: 3.2 (Stocks and Dividends); 3.3 (Exchange Traded Funds); 5.1 (Stock PNL); 5.4 (Returns)
+*R for Finance*: 3.2 (Stocks and Dividends); 3.3 (Exchange Traded Funds); 5.1 (Stock PNL); 5.4 (Returns)
 
 <!-- <span style="color:gray":>**Supplemental:**</span>  -->
 [Using R Studio Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) - a tutorial on how and why to use R Studio projects
@@ -55,7 +55,7 @@ title: ""
 
 #### **Options Analysis**
 
-*Learning Options from Data*: Chapter 2 (Options 101); Chapter 5 (Profit & Loss); Chapter 6 (Option Pricing)
+*R for Finance*: Chapter 2 (Options 101); Chapter 5 (Profit & Loss); Chapter 6 (Option Pricing)
 
 <br> 
 
